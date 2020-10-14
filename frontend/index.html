@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+  	<head>
+	    <meta charset="UTF-8">
+	    <title>Covid-19 Detector</title>
+	    <link rel="stylesheet" href="./styles.css"> 
+	    <meta http-equiv="Content-Security-Policy" 
+          content="script-src 'self' 'unsafe-inline';" />  
+		<style>
+			.background{
+				position:absolute;
+				top:0px;
+				left:0px;
+				z-index:1;
+			}
+			
+			.button-1 {
+				position:absolute;
+				top:490px;
+				left:484px;
+				z-index:2;
+			}
+
+			.button-2 {
+				position:absolute;
+				top:590px;
+				left:484px;
+				z-index:3;
+			}
+			.button-3 {
+				position:absolute;
+				top:690px;
+				left:484px;
+				z-index:3;
+			}
+			
+		</style>
+  	</head>
+
+  	<body>
+
+		<div class = "background">
+			<image src="./background.png" width="1060" height="900">
+		</div>
+		
+		<button id = "button" class = "button-1" ><script src="index.js"></script> 
+			<a style="font: 'Comic Sans MS'; color:#072739" >Upload CT Scan
+			</a>
+		</button>
+		<button  class = "button-2" >
+			<a style="font: 'Comic Sans MS'; color:#072739" href='./result.html'>Result
+			</a>
+		</button>
+		<button  class = "button-3" >
+			<a style="font: 'Comic Sans MS'; color:#072739" href='./segmentation.html'>Segmentation
+			</a>
+		</button>
+		
+	</body>
+</html>

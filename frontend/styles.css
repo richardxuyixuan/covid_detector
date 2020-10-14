@@ -1,0 +1,37 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.background{
+	width: 1048px;
+	height: 1048px;
+	background-image:url("background.png");
+	background-size:contain;
+	background-repeat: no-repeat;
+}
+
+.button-1{
+	width: 300px;
+	height:70px;
+	background-color:#FFDF2B;
+	border-radius: 12px;
+	text-align: center;
+	font-size: 26px;
+	font: Comic Sans MS;
+}
+.button-2{
+	width: 300px;
+	height:70px;
+	background-color:#FFDF2B;
+	border-radius: 12px;
+	text-align: center;
+	font-size: 26px;
+	font: Comic Sans MS;
+}.button-3{
+	width: 300px;
+	height:70px;
+	background-color:#FFDF2B;
+	border-radius: 12px;
+	text-align: center;
+	font-size: 26px;
+	font: Comic Sans MS;
+}

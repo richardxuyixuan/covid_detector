@@ -1,0 +1,16 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.background{
+	width: 1048px;
+	height: 1048px;
+	background-image:url("result.png");
+	background-size:contain;
+	background-repeat: no-repeat;
+}
+
+.button-1{
+	width: 105px;
+	height:70px;
+
+}
