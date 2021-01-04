@@ -13,5 +13,5 @@ To install all dependencies used in python notebook, run:
 
 We recommend running the notebook files using **Google Colab**
 ## hackathon description 
-To learn more about our team and the project, please refer to [Stack-Underflow Desciprtion](https://github.com/IF2020-UTADA/if2020-stack-underflow/blob/master/Stack-Underflow-Description.pdf)
+To learn more about our team and the project, please refer to [Stack-Underflow Desciprtion](https://github.com/richardxuyixuan/covid_detector/blob/main/Stack-Underflow-Description.pdf)
 
